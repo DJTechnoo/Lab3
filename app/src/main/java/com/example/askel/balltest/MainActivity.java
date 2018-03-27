@@ -84,14 +84,14 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         private static final int CIRCLE_RADIUS = 25; //pixels
 
-        private Paint black;
-        private Paint cyan;
+        private final Paint black;
+        private final Paint cyan;
 
         private int viewWidth;
         private int viewHeight;
 
-        private Ball ball;
-        private Rectangle rect;
+        private final Ball ball;
+        private final Rectangle rect;
 
 
         public GameView(Context context) {

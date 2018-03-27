@@ -5,11 +5,11 @@ import android.graphics.Paint;
  */
 
 public class Rectangle {
-    public int x;
-    public int y;
+    public final int x;
+    public final int y;
     public int width;
     public int height;
-    public Paint colour;
+    public final Paint colour;
 
     public Rectangle(int x, int y, int wd, int ht, Paint col){
         this.x = x;

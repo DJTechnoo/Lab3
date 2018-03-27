@@ -8,18 +8,14 @@ import android.graphics.Paint;
 public class Ball {
     public int x;
     public int y;
-    public int xv;
-    public int yv;
-    public int radius;
-    public Paint colour;
+    public final int radius;
+    public final Paint colour;
 
 
     //  Instantiate the ball properties
     public Ball(int x, int y, int rad, Paint col){
         this.x = x;
         this.y = y;
-        this.xv = 0;
-        this.yv = 0;
         this.radius = rad;
         this.colour = col;
     }
